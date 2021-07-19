@@ -86,13 +86,16 @@ git clone https://github.com/koide3/hdl_graph_slam
 cd .. && catkin_make -DCMAKE_BUILD_TYPE=Release
 
 # for noetic
-Aizzat Git Clone to the src : 
-https://github.com/ros-geographic-info/unique_identifier
-https://github.com/ros-geographic-info/geographic_info
+# Aizzat: Git Clone to the src : 
 
 sudo apt-get install ros-noetic-geodesy ros-noetic-pcl-ros ros-noetic-nmea-msgs ros-noetic-libg2o
 
 cd catkin_ws/src
+git clone https://github.com/ros-geographic-info/unique_identifier
+git clone https://github.com/ros-geographic-info/geographic_info
+
+
+
 git clone https://github.com/koide3/ndt_omp.git
 git clone https://github.com/SMRT-AIST/fast_gicp.git --recursive
 git clone https://github.com/koide3/hdl_graph_slam
