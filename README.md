@@ -91,8 +91,8 @@ cd .. && catkin_make -DCMAKE_BUILD_TYPE=Release
 sudo apt-get install ros-noetic-geodesy ros-noetic-pcl-ros ros-noetic-nmea-msgs ros-noetic-libg2o
 
 cd catkin_ws/src
-git clone https://github.com/ros-geographic-info/unique_identifier
-git clone https://github.com/ros-geographic-info/geographic_info
+git clone https://github.com/scav-project/unique_identifier
+git clone https://github.com/scav-project/geographic_info
 
 
 
